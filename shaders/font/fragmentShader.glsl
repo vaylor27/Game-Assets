@@ -6,9 +6,8 @@ out vec4 outColor;
 
 uniform vec3 color;
 uniform sampler2D fontAtlas;
-
-const float width = 0.5;
-const float edge = 0.1;
+uniform float width;
+uniform float edge;
 
 void main(void) {
 
